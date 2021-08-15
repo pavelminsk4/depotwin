@@ -15,7 +15,7 @@ can participate. Exercise your creativity by creating chatbot
 skills for communicating, information, and fun.
 </p>},
                 image_url: '7apps.jpg',
-                price: 0.50)
+                price: 11.50)
 # . . .
 Product.create!(title: '2 Build Chatbot Interactions',
                 description:
