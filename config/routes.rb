@@ -6,6 +6,8 @@ Rails.application.routes.draw do
     delete 'logout' => :destroy
   end
 
+  resources :support_requests, only: [ :index, :update ]
+
   get 'sessions/create'
   get 'sessions/destroy'
   resources :users
